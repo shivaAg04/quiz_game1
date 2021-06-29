@@ -8,14 +8,18 @@ class Result extends StatelessWidget {
 
   String get resultphrase {
     String resultText;
-    if (resulutScore <= 10) {
-      resultText = 'great';
-    } else if (resulutScore <= 20) {
-      resultText = 'hurray';
-    } else if (resulutScore <= 40) {
-      resultText = ' amazing';
+    if (resulutScore == 1) {
+      resultText = '1 anwer is correct very very bad!';
+    } else if (resulutScore == 2) {
+      resultText = '2 anwers are correct very bad!';
+    } else if (resulutScore == 3) {
+      resultText = ' 3 answers are correct nice!';
+    } else if (resulutScore == 4) {
+      resultText = ' 4 answers are coreect goood!';
+    } else if (resulutScore == 5) {
+      resultText = ' 5 answers are coreect very goood!';
     } else {
-      resultText = 'you are devil';
+      resultText = 'please do study i request you';
     }
     return resultText;
   }

@@ -16,30 +16,48 @@ class QuizApp extends StatefulWidget {
 class _QuizAppState extends State<QuizApp> {
   final _questions = [
     {
-      'questionText': 'what\'s your favorite colour?',
+      'questionText': 'Which is not related to disress?',
       'answers': [
-        {'text': 'black', 'score': 10},
-        {'text': 'pink', 'score': 7},
-        {'text': 'red', 'score': 5},
-        {'text': 'blue', 'score': 3}
+        {'text': 'unemployment', 'score': 0},
+        {'text': 'Emotional issue', 'score': 0},
+        {'text': 'Eustress', 'score': 1},
+        {'text': 'both A and B', 'score': 0}
       ]
     },
     {
-      'questionText': 'what\'s your favorite  animal?',
+      'questionText': 'what S stand in SMART goal ',
       'answers': [
-        {'text': 'rabbit', 'score': 1},
-        {'text': ' dog', 'score': 7},
-        {'text': ' cat', 'score': 9},
-        {'text': ' lion', 'score': 3}
+        {'text': 'specific', 'score': 1},
+        {'text': 'special', 'score': 0},
+        {'text': 'space', 'score': 0},
+        {'text': 'none', 'score': 0}
       ]
     },
     {
-      'questionText': 'what\'s your favorite club?',
+      'questionText': 'In which type of listening we easily get distracted',
       'answers': [
-        {'text': ' dsc', 'score': 10},
-        {'text': ' dsc', 'score': 7},
-        {'text': ' dsc', 'score': 5},
-        {'text': ' only dsc', 'score': 53}
+        {'text': 'active ', 'score': 0},
+        {'text': 'passive', 'score': 1},
+        {'text': 'both', 'score': 0},
+        {'text': 'none', 'score': 0}
+      ]
+    },
+    {
+      'questionText': 'Positive stress is also called',
+      'answers': [
+        {'text': 'Ester', 'score': 0},
+        {'text': 'Apistar', 'score': 0},
+        {'text': 'Eustress', 'score': 1},
+        {'text': 'none', 'score': 0}
+      ]
+    },
+    {
+      'questionText': ' which method of writing is used for dramatic narration',
+      'answers': [
+        {'text': 'Spatiual', 'score': 0},
+        {'text': 'exposition', 'score': 0},
+        {'text': 'interrupted', 'score': 1},
+        {'text': 'none', 'score': 0}
       ]
     },
   ];
@@ -58,11 +76,11 @@ class _QuizAppState extends State<QuizApp> {
     setState(() {
       _questionIndex = _questionIndex + 1;
     });
-    if (_questionIndex < _questions.length) {
-      print('We have more  questions!');
-    } else {
-      print('no more questions!');
-    }
+    // if (_questionIndex < _questions.length) {
+    //   print('We have more  questions!');
+    // } else {
+    //   print('no more questions!');
+    // }
   }
 
   @override
