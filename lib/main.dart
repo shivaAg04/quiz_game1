@@ -70,7 +70,7 @@ class _QuizAppState extends State<QuizApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('quiz by shiva'),
+          title: Text('Quiz by shiva'),
           backgroundColor: Colors.blue,
         ),
         body: _questionIndex < _questions.length
