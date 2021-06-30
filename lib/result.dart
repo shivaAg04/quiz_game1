@@ -15,9 +15,9 @@ class Result extends StatelessWidget {
     } else if (resulutScore == 3) {
       resultText = ' 3 answers are correct nice!';
     } else if (resulutScore == 4) {
-      resultText = ' 4 answers are coreect goood!';
+      resultText = ' 4 answers are correct goood!';
     } else if (resulutScore == 5) {
-      resultText = ' 5 answers are coreect very goood!';
+      resultText = ' 5 answers are correct very goood!';
     } else {
       resultText = 'please do study i request you';
     }
