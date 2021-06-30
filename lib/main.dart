@@ -16,7 +16,7 @@ class QuizApp extends StatefulWidget {
 class _QuizAppState extends State<QuizApp> {
   final _questions = [
     {
-      'questionText': 'Which is not related to disress?',
+      'questionText': 'Which is not related to Distress?',
       'answers': [
         {'text': 'unemployment', 'score': 0},
         {'text': 'Emotional issue', 'score': 0},
@@ -54,7 +54,7 @@ class _QuizAppState extends State<QuizApp> {
     {
       'questionText': ' which method of writing is used for dramatic narration',
       'answers': [
-        {'text': 'Spatiual', 'score': 0},
+        {'text': 'Spatial', 'score': 0},
         {'text': 'exposition', 'score': 0},
         {'text': 'interrupted', 'score': 1},
         {'text': 'none', 'score': 0}
